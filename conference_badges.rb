@@ -17,10 +17,12 @@ end
  
 def assign_rooms(array)
   room_number=1
+  assign_number_array=[]
   if room_number<array.length
   array.each_with_index do |name, index|
-    puts "Hello, #{name}! You'll be assigned to room #{index}!"
+    assign_number_array.push("Hello, #{name}! You'll be assigned to room #{index+1}!")
     room_number+=1
   end
 end
+return assign_number_array
 end
