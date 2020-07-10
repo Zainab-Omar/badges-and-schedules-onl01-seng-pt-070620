@@ -18,5 +18,5 @@ end
 def assign_rooms(array)
   room_number=1
   if room_number<array.length
-  array.each_with_index do |name|
+  array.each_with_index do |name, index|
     puts ""
