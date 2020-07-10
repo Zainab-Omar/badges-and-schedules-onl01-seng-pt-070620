@@ -19,4 +19,8 @@ def assign_rooms(array)
   room_number=1
   if room_number<array.length
   array.each_with_index do |name, index|
-    puts ""
+    puts "Hello, #{name}! You'll be assigned to room #{index}!"
+    room_number+=1
+  end
+end
+end
