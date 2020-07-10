@@ -24,7 +24,10 @@ return new_array
 end
 
 def printer (array)
-  
+  batch_badge_creator(array).each do |name|
+    name
+    assign_rooms(array).each do |room_number|
+      room_number
 end
 
 
